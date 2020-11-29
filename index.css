@@ -1,0 +1,113 @@
+body
+{
+    background-color:#A8B5B5;
+    width:100%;
+    
+}
+#fa-user
+{
+    font-size:80px;
+    position:relative;
+    top:-100px;
+    margin-bottom:-90px;
+    border:10px solid orange;
+    border-radius:50%;
+    padding:20px;
+    color:#fff;
+    background:#4f3ab7;
+}
+.row{
+    margin:0;
+    padding:0;
+}
+.icon-bar
+{
+    background:#fff;
+}
+
+.form-control:focus
+{
+    box-shadow:none;
+}
+#preloader
+{
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:100;
+    background: #000 url("load.gif") no-repeat center;
+}
+.fa{color:#4f3ab7}
+.panel-heading{background:#4f3ab7}
+    #navbar
+    {
+        background:#fff;
+        border:none;
+        padding:3% 0.5% 0.5% 0.5%;
+        border-radius:0;
+       border-bottom:2px solid #a5a5a5;
+     
+        z-index:10000;
+        
+    }
+    .btn-primary{background:#4f3ab7}
+    #user
+    {
+        width:120px;
+        height:120px;
+        border-radius:50%;
+        border:2px solid #000;
+        font-size:80px;
+        line-height:100px;
+    }
+    .btn-group
+    {
+        position:absolute;
+        right:1%;
+    }
+    #brand
+    {color:#000;}
+    #navbar-link .nav a
+    {color:#4f3ab7;}
+   .navbar-toggle
+   {
+       border:none;
+       background:#0275d8;
+   }
+   #btn:hover{background:#0275d8;}
+   #navbar ul li a:hover{background:#fff}
+   .jumbotron
+   {
+      padding-left:5%;
+      padding-right:5%;
+   }
+   .afternav
+   {
+       background:#fff;
+       position:sticky;
+       top:0;
+       transition:3s all;
+   }
+   #vote div
+   {
+       padding:5% 1%;
+       margin-top:0;
+   }
+   #panel .panel-heading
+   {
+       background:#4f3ab7;
+   }
+   .devider
+   {padding:10px;text-align:center}
+@media only screen and (max-width: 768px) 
+{
+    .panel
+    {
+        height:auto;
+    }
+    #vote div
+    {
+        padding:100px 0;
+    }
+   
+}
